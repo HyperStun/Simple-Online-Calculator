@@ -1,0 +1,88 @@
+* {
+    margin: 0px;
+    font-family: Source Sans Pro, sans-serif;
+}
+
+body {
+    background-image: url('Imgs/bgimage.jpg');
+}
+
+#output {
+    width: 400px;
+    background-color: #212B41;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    word-wrap: break-word;
+}
+
+.history {
+    text-align: right;
+    font-size: 20px;
+    padding: 40px 20px 0px 0px;
+    font-weight: bolder;
+    color: #92A49D;
+}
+
+.console {
+    text-align: right;
+    font-size: 50px;
+    padding: 45px 20px 20px 0px;
+    font-weight: bolder;
+    color: #0DB387;
+}
+
+table {
+    background-color: #2E3951;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+.fifth {
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+td {
+    padding: 30px 30px 40px 30px;
+    color: #92A49D;
+    font-size: 36px;
+}
+
+.btn {
+    transition-duration: 0.2s;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #202A40;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+}
+
+.operation {
+    font-size: 40px;
+    color: #18D4A3;
+    font-weight: bold;
+}
+
+.operation:hover {
+    color: #0DB387;
+    font-weight: bolder;
+}
+
+#zero {
+    border-bottom-left-radius: 25px;
+}
+
+#equals {
+    width: 25%;
+    border-bottom-right-radius: 25px;
+}
+
+#divide {
+    width: 25%;
+}
